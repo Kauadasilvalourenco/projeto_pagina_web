@@ -88,7 +88,7 @@ main p{
 main ul{
     background-color: var(--cor_destaque);
     columns: 2;
-    list-style: '🗸\00A0';
+    list-style: '✔\00A0';
     font-family: var(--fonte_titulos);
     margin: 17px -10px 5px -10px;
 }
