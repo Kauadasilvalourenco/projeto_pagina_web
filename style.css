@@ -16,6 +16,10 @@
     --fonte_conteudo: 'Oxanium', Arial, Helvetica, sans-serif,monospace;
 }
 
+p{
+    line-height: 200%;
+}
+
 body{
     background-color: var(--cor_fundo);
 }
