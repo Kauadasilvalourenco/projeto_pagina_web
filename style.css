@@ -20,6 +20,13 @@ p{
     line-height: 200%;
 }
 
+img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+}
+
 body{
     background-color: var(--cor_fundo);
 }
@@ -108,6 +115,21 @@ main p.lista{
     padding: 10px;
 }
 
+main span.destaque{
+    color: var(--cor_destaque);
+    font-weight: bold;
+}
+
+main a{
+    text-decoration: none;
+    color: var(--cor_destaque);
+    font-weight: bold;
+}
+
+main a::after{
+    content: '🔗';
+}
+
 footer{
     background-image: linear-gradient(to bottom, var(--cor2_cabecalho-rodape)10%, var(--cor1_cabecalho-rodape));
     padding: 10px;
@@ -117,4 +139,8 @@ footer{
     font-family: var(--fonte_cabecalho-rodape);
     text-decoration: underline;
     text-decoration-color: var(--cor_destaque);
+}
+
+footer span#destaque_rodape{
+    font-weight: 800;
 }
